@@ -2,7 +2,7 @@ class Maze
 
   @@mazes = {}
   @@maze_id = 0
-  attr_reader :x, :y
+  attr_reader :x, :y, :id
   # y axis is up down
   # x axis is left right
   def initialize(x, y, id)
